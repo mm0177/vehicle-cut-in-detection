@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-HEAD
+
 # vehicle-cut-in-detection
 Intel Vehicle Cut In Detecteion Project
-=======
-<<<<<<< HEAD
->>>>>>> 64189c1 (new change)
+
 # [ Vehicle Cut In Detection Using Monocular Camera ]
 Purpose is to detect the cut in of vehicles and give warning to the driver  
 
@@ -55,21 +52,10 @@ LSTM_RUNNING is given inside the run folder which can be used to directly run th
 # References
 [DETR](https://github.com/facebookresearch/detr)   
 [GLP-depth](https://github.com/vinvino02/GLPDepth)   
-[huggingface-transformers](https://github.com/huggingface/transformers)   
-[KITTI dataset](http://www.cvlibs.net/datasets/kitti/)  
 
  
-# Citation
-```
-Thank you so much for your interest in our model.
-```
-
-```
-we will make it.
-```
-<<<<<<< HEAD
 e3c0939 (pushing)
-=======
+
 =======
 # vehicle-cut-in-detection
 Intel Vehicle Cut In Detecteion Project
