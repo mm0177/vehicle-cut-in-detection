@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 HEAD
 # vehicle-cut-in-detection
 Intel Vehicle Cut In Detecteion Project
+=======
+<<<<<<< HEAD
+>>>>>>> 64189c1 (new change)
 # [ Vehicle Cut In Detection Using Monocular Camera ]
 Purpose is to detect the cut in of vehicles and give warning to the driver  
 
@@ -63,4 +67,11 @@ Thank you so much for your interest in our model.
 ```
 we will make it.
 ```
+<<<<<<< HEAD
 e3c0939 (pushing)
+=======
+=======
+# vehicle-cut-in-detection
+Intel Vehicle Cut In Detecteion Project
+>>>>>>> origin/main
+>>>>>>> 64189c1 (new change)
