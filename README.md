@@ -3,13 +3,13 @@
 Intel Vehicle Cut In Detecteion Project
 
 # [ Vehicle Cut In Detection Using Monocular Camera ]
-Purpose is to detect the cut in of vehicles and give warning to the driver  
+Purpose is to detect the cut in of vehicles and give warning to the driver 
 
  
 
   
 # Introduction
->Bounding box and Depth are extracted from image data to predict the distance.    
+>Bounding box and Depth are extracted from image to predict the distance.    
 
     
   
