@@ -1,63 +1,70 @@
+# 🚗💨 Vehicle Cut-In Detection – AI-Powered Road Safety System
 
-# vehicle-cut-in-detection
-Intel Vehicle Cut In Detecteion Project
+Welcome to **Vehicle Cut-In Detection**, an advanced AI-based system designed to detect and analyze vehicle cut-in behavior in real time. 🛣️⚡ This project aims to enhance road safety by identifying potential risks and alerting drivers proactively. 🚀🤖
 
-# [ Vehicle Cut In Detection Using Monocular Camera ]
-Purpose is to detect the cut in of vehicles and give warning to the driver 
+GitHub Repository: [Vehicle Cut-In Detection](https://github.com/mm0177/vehicle-cut-in-detection)
 
- 
+---
 
-  
-# Introduction
->Bounding box and Depth are extracted from image to predict the distance.    
+## 📌 Features
 
-    
-  
-# Model Process
-> First Vehicle Deetection is Done and then Depth is estimated finally we then calculate the distance between two cars.
-> Detr is used to do the vehicle detection and then GLPN model is used to perfrom the monocular depth estimation
-  
-# Dataset
-**KITTI DATASET HAS BEEN USED**  
+✅ **Real-Time Cut-In Detection** – Instantly detects vehicles cutting into lanes. 🚘📡  
+✅ **Advanced AI Algorithms** – Uses deep learning for accurate prediction and analysis. 🧠📊  
+✅ **High-Speed Processing** – Optimized for real-time decision-making. ⚡🚦  
+✅ **Alert System** – Provides warnings to prevent accidents. 🔔🚨  
+✅ **Seamless Integration** – Can be incorporated into existing ADAS (Advanced Driver Assistance Systems). 🔄🚗  
 
-------------
-- **Train data (# number of Data: 21,616)**  
+---
 
-| Model | MAE | RMSE | Accuracy |
-| ------------- | ------------- | ------------- | ------------- | 
-| `LSTM` | 0.6988 | 1.4736 | 0.9746 |  
-  
-- **Test data (# number of Data: 2,703)**  
+## 🚀 Installation Guide
 
-| Model | MAE | RMSE | Accuracy | Pre-trained | scaler file |
-
-| `LSTM` | 1.1658 | 2.1420 | 0.9526 | [LSTM_16]| [scaler]|  
-
-------------
-
-   
-1) Make Our Datasets   
-
+### 1️⃣ Clone the Repository 🛠️  
+```bash
+git clone https://github.com/mm0177/vehicle-cut-in-detection.git
+cd vehicle-cut-in-detection
 ```
-Splitting of the datasets has been done with 3 csv files of train , test and valid , are Available in  the Datasets Directory
+
+### 2️⃣ Set Up Virtual Environment & Install Dependencies 📦  
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
 ```
-  
-# Training 
-If you want reproduce the training part , the training folder has the LSTMtraining notebook , which will generate the ODD_variable16.pth model file.(Already the file has been provided in the model folder)
 
-# Testing
-LSTM_RUNNING is given inside the run folder which can be used to directly run the project without training again
+### 3️⃣ Run the Application 🎮  
+```bash
+python main.py
+```
 
+### 4️⃣ Open in Browser 🌍  
+Go to **`http://localhost:5000`** to visualize real-time cut-in detections. 📊🚗  
 
-# References
-[DETR](https://github.com/facebookresearch/detr)   
-[GLP-depth](https://github.com/vinvino02/GLPDepth)   
+---
 
- 
-e3c0939 (pushing)
+## 🎯 How It Works
 
-=======
-# vehicle-cut-in-detection
-Intel Vehicle Cut In Detecteion Project
->>>>>>> origin/main
->>>>>>> 64189c1 (new change)
+1️⃣ Captures road footage using a camera or input video stream. 🎥📡  
+2️⃣ Processes frames with **deep learning models** to detect cut-in maneuvers. 🧠📊  
+3️⃣ Identifies potential risks and alerts the driver in real time. 🚨⚠️  
+4️⃣ Logs events for further analysis and performance improvements. 📜📈  
+
+---
+
+## 🤝 Contributing
+
+🚀 Have an idea? Found a bug? Want to improve **Vehicle Cut-In Detection**?  
+Fork the repo, make your enhancements, and submit a **pull request**!  
+
+---
+
+## 📜 License
+
+📝 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.  
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, **star** ⭐ the repo and share it with the community! 🚗💡  
+
+Let's make roads safer with AI-powered vehicle cut-in detection! 🏆🤖🚦
