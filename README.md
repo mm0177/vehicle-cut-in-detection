@@ -1,5 +1,7 @@
 # 🚗💨 Vehicle Cut-In Detection – AI-Powered Road Safety System
 
+
+
 Welcome to **Vehicle Cut-In Detection**, an advanced AI-based system designed to detect and analyze vehicle cut-in behavior in real time. 🛣️⚡ This project aims to enhance road safety by identifying potential risks and alerting drivers proactively. 🚀🤖
 
 GitHub Repository: [Vehicle Cut-In Detection](https://github.com/mm0177/vehicle-cut-in-detection)
